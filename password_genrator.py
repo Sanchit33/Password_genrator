@@ -3,7 +3,7 @@ from tkinter import *
 
 # importing the pyperclip module to use it to copy our generated 
 # password to clipboard
-import pyperclip
+import paperclip
 
 # random module will be used in generating the random password
 import random
@@ -76,4 +76,4 @@ Button(root, text="Copy to clipboard", command=copytoclipboard).pack()
 
 # mainloop() is an infinite loop used to run the application when 
 # it's in ready state 
-root.mainloo() 
+root.mainloop() 
